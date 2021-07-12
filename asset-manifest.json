@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/carrocompra/static/css/main.2610855a.chunk.css",
+    "main.js": "/carrocompra/static/js/main.350c8e86.chunk.js",
+    "main.js.map": "/carrocompra/static/js/main.350c8e86.chunk.js.map",
+    "runtime-main.js": "/carrocompra/static/js/runtime-main.e50b1215.js",
+    "runtime-main.js.map": "/carrocompra/static/js/runtime-main.e50b1215.js.map",
+    "static/js/2.95f8c5a3.chunk.js": "/carrocompra/static/js/2.95f8c5a3.chunk.js",
+    "static/js/2.95f8c5a3.chunk.js.map": "/carrocompra/static/js/2.95f8c5a3.chunk.js.map",
+    "index.html": "/carrocompra/index.html",
+    "static/css/main.2610855a.chunk.css.map": "/carrocompra/static/css/main.2610855a.chunk.css.map",
+    "static/js/2.95f8c5a3.chunk.js.LICENSE.txt": "/carrocompra/static/js/2.95f8c5a3.chunk.js.LICENSE.txt",
+    "static/media/accesorios-2.c2425b00.jpg": "/carrocompra/static/media/accesorios-2.c2425b00.jpg",
+    "static/media/accesorios-3.d0c7d6f5.jpg": "/carrocompra/static/media/accesorios-3.d0c7d6f5.jpg",
+    "static/media/accesorios-4.a125cf0d.jpg": "/carrocompra/static/media/accesorios-4.a125cf0d.jpg",
+    "static/media/accesorios-5.c5e4c15c.jpg": "/carrocompra/static/media/accesorios-5.c5e4c15c.jpg",
+    "static/media/accesorios-6.b9b6a957.jpg": "/carrocompra/static/media/accesorios-6.b9b6a957.jpg",
+    "static/media/calzado-1.802f3d54.jpg": "/carrocompra/static/media/calzado-1.802f3d54.jpg",
+    "static/media/calzado-3.32a11e8a.jpg": "/carrocompra/static/media/calzado-3.32a11e8a.jpg",
+    "static/media/calzado-4.51175a5b.jpg": "/carrocompra/static/media/calzado-4.51175a5b.jpg",
+    "static/media/calzado-5.7bcecd0d.jpg": "/carrocompra/static/media/calzado-5.7bcecd0d.jpg",
+    "static/media/calzado-6.79d6e231.jpg": "/carrocompra/static/media/calzado-6.79d6e231.jpg",
+    "static/media/img-inicio.c34fbfd1.jpg": "/carrocompra/static/media/img-inicio.c34fbfd1.jpg",
+    "static/media/ropa-1.7df04de3.jpg": "/carrocompra/static/media/ropa-1.7df04de3.jpg",
+    "static/media/ropa-2.4a465b15.jpg": "/carrocompra/static/media/ropa-2.4a465b15.jpg",
+    "static/media/ropa-3.267e9e55.jpg": "/carrocompra/static/media/ropa-3.267e9e55.jpg",
+    "static/media/ropa-4.3b3e989d.jpg": "/carrocompra/static/media/ropa-4.3b3e989d.jpg",
+    "static/media/ropa-5.380cc497.jpg": "/carrocompra/static/media/ropa-5.380cc497.jpg",
+    "static/media/ropa-6.f5c78b59.jpg": "/carrocompra/static/media/ropa-6.f5c78b59.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e50b1215.js",
+    "static/js/2.95f8c5a3.chunk.js",
+    "static/css/main.2610855a.chunk.css",
+    "static/js/main.350c8e86.chunk.js"
+  ]
+}
