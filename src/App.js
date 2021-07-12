@@ -70,13 +70,13 @@ const App = () => {
       <nav className="menu">
         <NavLink className="menu__link" to="/carrocompra" exact={true}>Inicio</NavLink>
         <NavLink to="/carrocompra" exact={true}><FontAwesomeIcon className="iconos__menu" icon={faHome}/></NavLink>
-        <NavLink className="menu__link" to="/ropa">Ropa</NavLink>
-        <NavLink to="/ropa"><FontAwesomeIcon className="iconos__menu" icon={faTshirt}/></NavLink>
-        <NavLink className="menu__link" to="/calzado">Calzado</NavLink>
-        <NavLink to="/calzado"><FontAwesomeIcon className="iconos__menu" icon={faShoePrints}/></NavLink>
-        <NavLink className="menu__link" to="/accesorios">Accesorios</NavLink>
-        <NavLink to="/accesorios"><FontAwesomeIcon className="iconos__menu" icon={faSocks}/></NavLink>
-        <NavLink to="/carrito">
+        <NavLink className="menu__link" to="/carrocompra/ropa">Ropa</NavLink>
+        <NavLink to="/carrocompra/ropa"><FontAwesomeIcon className="iconos__menu" icon={faTshirt}/></NavLink>
+        <NavLink className="menu__link" to="/carrocompra/calzado">Calzado</NavLink>
+        <NavLink to="/carrocompra/calzado"><FontAwesomeIcon className="iconos__menu" icon={faShoePrints}/></NavLink>
+        <NavLink className="menu__link" to="/carrocompra/accesorios">Accesorios</NavLink>
+        <NavLink to="/carrocompra/accesorios"><FontAwesomeIcon className="iconos__menu" icon={faSocks}/></NavLink>
+        <NavLink to="/carrocompra/carrito">
           <div>
             <FontAwesomeIcon className="icono__carrito" icon={faShoppingCart}/>
                 {carrito.length > 0 ?
@@ -94,16 +94,16 @@ const App = () => {
       <main>
         <Switch>
           <Route path="/carrocompra" exact={true} component={Inicio}/>
-          <Route path="/ropa">
+          <Route path="/carrocompra/ropa">
             <Ropa agregarProducto={agregarProducto}/>
           </Route>
-          <Route path="/calzado">
+          <Route path="/carrocompra/calzado">
             <Calzado agregarProducto={agregarProducto}/>
           </Route>
-          <Route path="/accesorios">
+          <Route path="/carrocompra/accesorios">
             <Accesorios agregarProducto={agregarProducto}/>
           </Route>
-          <Route path="/carrito">
+          <Route path="/carrocompra/carrito">
             <Carrito carrito={carrito} eliminarProducto={eliminarProducto} incrementarCantidad={incrementarCantidad}/>
           </Route>
           <Route component={Error404}/>
