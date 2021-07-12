@@ -68,8 +68,8 @@ const App = () => {
   return (
     <div className="container">
       <nav className="menu">
-        <NavLink className="menu__link" to="/" exact={true}>Inicio</NavLink>
-        <NavLink to="/" exact={true}><FontAwesomeIcon className="iconos__menu" icon={faHome}/></NavLink>
+        <NavLink className="menu__link" to="/carrocompra" exact={true}>Inicio</NavLink>
+        <NavLink to="/carrocompra" exact={true}><FontAwesomeIcon className="iconos__menu" icon={faHome}/></NavLink>
         <NavLink className="menu__link" to="/ropa">Ropa</NavLink>
         <NavLink to="/ropa"><FontAwesomeIcon className="iconos__menu" icon={faTshirt}/></NavLink>
         <NavLink className="menu__link" to="/calzado">Calzado</NavLink>
