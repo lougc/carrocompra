@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/carrocompra/static/css/main.2610855a.chunk.css",
-    "main.js": "/carrocompra/static/js/main.4bb5a27e.chunk.js",
-    "main.js.map": "/carrocompra/static/js/main.4bb5a27e.chunk.js.map",
+    "main.js": "/carrocompra/static/js/main.aa6597ff.chunk.js",
+    "main.js.map": "/carrocompra/static/js/main.aa6597ff.chunk.js.map",
     "runtime-main.js": "/carrocompra/static/js/runtime-main.e50b1215.js",
     "runtime-main.js.map": "/carrocompra/static/js/runtime-main.e50b1215.js.map",
     "static/js/2.95f8c5a3.chunk.js": "/carrocompra/static/js/2.95f8c5a3.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.e50b1215.js",
     "static/js/2.95f8c5a3.chunk.js",
     "static/css/main.2610855a.chunk.css",
-    "static/js/main.4bb5a27e.chunk.js"
+    "static/js/main.aa6597ff.chunk.js"
   ]
 }
