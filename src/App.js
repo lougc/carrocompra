@@ -93,7 +93,7 @@ const App = () => {
       </nav>
       <main>
         <Switch>
-          <Route path="/" exact={true} component={Inicio}/>
+          <Route path="/carrocompra" exact={true} component={Inicio}/>
           <Route path="/ropa">
             <Ropa agregarProducto={agregarProducto}/>
           </Route>
