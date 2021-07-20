@@ -1,0 +1,127 @@
+/*** *** ESTILOS GLOBALES *** ***/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+body {
+	background: #EEF3F5;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+#root {
+	display: flex;
+	justify-content: center;
+}
+ 
+a {
+	text-decoration: none;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+.container {
+  	max-width: 1000px;
+  	padding: 40px;
+  	width: 90%;
+  	display: grid;
+	justify-content: center;
+  	gap: 20px;
+  	background: #fff;
+  	margin: 40px 0;
+  	border-radius: 10px;
+  	box-shadow: 0px 0px 5px rgba(129, 129, 129, 0.1);
+}
+
+/*** *** MENÚ NAVEGACION *** ***/
+
+.menu {
+	width: 100%;
+  	display: flex;
+  	font-size: 13px;
+  	justify-content: center;
+  	background: #000;
+  	border-radius: 3px;
+}
+
+.menu__link {
+	color: #fff;
+    display: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	transition: .2s ease-in-out;	
+}
+
+.menu__link:hover {
+	color: red;
+	font-weight: bold;
+}
+
+.iconos__menu, 
+.icono__carrito {
+	color: #fff;
+	font-size: 18px;
+	margin: 15px;
+	transition: .2s ease-in-out;
+}
+
+.iconos__menu:hover,
+.icono__carrito:hover {
+	color: red;
+}
+
+.cantidad__carrito {
+	background: red;
+	color: #fff;
+	padding: 2.5px 6px;
+	margin-left: 35px;
+	border-radius: 10px;
+	position: absolute;
+	top: 85px;
+}
+
+/*** *** ASIDE *** ***/
+
+.aside {
+	display: none;
+}
+
+/*** *** MEDIAQUERIES *** ***/
+
+@media (min-width: 429px) {
+	.container {
+		justify-content: stretch;
+	}
+}
+
+@media (min-width: 770px){
+	.menu__link {
+		display: inline-block;
+	}
+	.iconos__menu {
+		display: none;
+	}
+}
+@media (min-width:1100px) {
+	.icono__carrito,
+	.cantidad__carrito {
+		display: none;
+	}
+}
+
+@media (min-width:1100px){
+	.container {
+		grid-template-columns: 2fr 1fr ;
+	}
+	.menu {
+		grid-column: span 2;
+	}
+	.aside{
+		display: block;
+	}
+}
+
