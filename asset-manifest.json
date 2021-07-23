@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/carrocompra/static/css/main.2610855a.chunk.css",
-    "main.js": "/carrocompra/static/js/main.aa6597ff.chunk.js",
-    "main.js.map": "/carrocompra/static/js/main.aa6597ff.chunk.js.map",
+    "main.js": "/carrocompra/static/js/main.60fe4fce.chunk.js",
+    "main.js.map": "/carrocompra/static/js/main.60fe4fce.chunk.js.map",
     "runtime-main.js": "/carrocompra/static/js/runtime-main.e50b1215.js",
     "runtime-main.js.map": "/carrocompra/static/js/runtime-main.e50b1215.js.map",
-    "static/js/2.95f8c5a3.chunk.js": "/carrocompra/static/js/2.95f8c5a3.chunk.js",
-    "static/js/2.95f8c5a3.chunk.js.map": "/carrocompra/static/js/2.95f8c5a3.chunk.js.map",
+    "static/js/2.c751337e.chunk.js": "/carrocompra/static/js/2.c751337e.chunk.js",
+    "static/js/2.c751337e.chunk.js.map": "/carrocompra/static/js/2.c751337e.chunk.js.map",
     "index.html": "/carrocompra/index.html",
     "static/css/main.2610855a.chunk.css.map": "/carrocompra/static/css/main.2610855a.chunk.css.map",
-    "static/js/2.95f8c5a3.chunk.js.LICENSE.txt": "/carrocompra/static/js/2.95f8c5a3.chunk.js.LICENSE.txt",
+    "static/js/2.c751337e.chunk.js.LICENSE.txt": "/carrocompra/static/js/2.c751337e.chunk.js.LICENSE.txt",
     "static/media/accesorios-2.c2425b00.jpg": "/carrocompra/static/media/accesorios-2.c2425b00.jpg",
     "static/media/accesorios-3.d0c7d6f5.jpg": "/carrocompra/static/media/accesorios-3.d0c7d6f5.jpg",
     "static/media/accesorios-4.a125cf0d.jpg": "/carrocompra/static/media/accesorios-4.a125cf0d.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e50b1215.js",
-    "static/js/2.95f8c5a3.chunk.js",
+    "static/js/2.c751337e.chunk.js",
     "static/css/main.2610855a.chunk.css",
-    "static/js/main.aa6597ff.chunk.js"
+    "static/js/main.60fe4fce.chunk.js"
   ]
 }
