@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {NavLink, Switch, Route} from 'react-router-dom'
+import {NavLink, Routes, Route} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShoppingCart, faHome, faTshirt, faShoePrints, faSocks} from '@fortawesome/free-solid-svg-icons'
 import Inicio from './components/Inicio'
@@ -92,22 +92,32 @@ const App = () => {
         </NavLink>
       </nav>
       <main>
-        <Switch>
-          <Route path="/" exact={true} component={Inicio}/>
-          <Route path="/ropa">
-            <Ropa agregarProducto={agregarProducto}/>
-          </Route>
-          <Route path="/calzado">
-            <Calzado agregarProducto={agregarProducto}/>
-          </Route>
-          <Route path="/accesorios">
-            <Accesorios agregarProducto={agregarProducto}/>
-          </Route>
-          <Route path="/carrito">
-            <Carrito carrito={carrito} eliminarProducto={eliminarProducto} incrementarCantidad={incrementarCantidad}/>
-          </Route>
-          <Route component={Error404}/>
-        </Switch>
+        <Routes>
+          <Route path="/" exact={true} element={<Inicio />}/>
+          <Route path="/ropa" element={
+              <Ropa 
+                agregarProducto={agregarProducto}
+              />
+          }/> 
+          <Route path="/calzado" element={
+              <Calzado 
+                agregarProducto={agregarProducto}
+              />
+          }/>
+          <Route path="/accesorios" element={
+              <Accesorios 
+                agregarProducto={agregarProducto}
+              />
+          }/>
+          <Route path="/carrito" element={
+              <Carrito 
+                carrito={carrito} 
+                eliminarProducto={eliminarProducto} 
+                incrementarCantidad={incrementarCantidad}
+              />
+          }/>
+          <Route element={<Error404 />}/>
+        </Routes>
       </main>
       <aside className="aside">
         <Carrito carrito={carrito} eliminarProducto={eliminarProducto} incrementarCantidad={incrementarCantidad}/>
