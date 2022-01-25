@@ -93,7 +93,8 @@ const App = () => {
       </nav>
       <main>
         <Routes>
-          <Route path="/" exact={true} element={<Inicio />}/>
+          <Route path="*" element={<Error404 />}/>
+          <Route path="/" element={<Inicio />}/>
           <Route path="/ropa" element={
               <Ropa 
                 agregarProducto={agregarProducto}
@@ -116,7 +117,6 @@ const App = () => {
                 incrementarCantidad={incrementarCantidad}
               />
           }/>
-          <Route element={<Error404 />}/>
         </Routes>
       </main>
       <aside className="aside">
